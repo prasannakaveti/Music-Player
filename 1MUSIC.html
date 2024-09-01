@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="c1.css">
+</head>
+<body>
+    <div class="music-player">
+        <header>
+            <h1>Music Player</h1>
+        </header>
+        
+        <main>
+            <div class="player-controls">
+                <button id="prev" class="control-btn">⏮</button>
+                <button id="play" class="control-btn">▶</button>
+                <button id="pause" class="control-btn">⏸</button>
+                <button id="next" class="control-btn">⏭</button>
+            </div>
+            
+            <div class="track-info">
+                <span id="track-title">Track Title</span>
+            </div>
+            
+            <input type="range" id="seek-bar" min="0" max="100" value="0">
+            <input type="range" id="volume-control" min="0" max="100" value="50">
+            
+            <div class="playlist">
+                <h2>Playlist</h2>
+                <ul id="playlist-items">
+                    <!-- Playlist items will be dynamically inserted here -->
+                </ul>
+            </div>
+            
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search for songs...">
+                <button id="search-btn">🔍</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2024 Music Player</p>
+        </footer>
+    </div>
+
+    <script src="c1.js"></script>
+</body>
+</html>

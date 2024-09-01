@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+    color: #fff;
+}
+
+.music-player {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #1c1f23;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: #61dafb;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.control-btn {
+    background: #61dafb;
+    border: none;
+    color: #282c34;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.control-btn:hover {
+    background: #4fa3c4;
+}
+
+.track-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+    background: #444;
+    border: none;
+}
+
+#volume-control {
+    background: #444;
+}
+
+.playlist {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+#search-btn {
+    padding: 10px;
+    border: none;
+    background: #61dafb;
+    color: #282c34;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#search-btn:hover {
+    background: #4fa3c4;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
